@@ -50,7 +50,7 @@ function post(data) {
 
   req.on('error', e => {
     console.error(`problem with request: ${e.message}`);
-    console.error(`problem with request: ${e}`);
+    console.error(`problem with request: ${JSON.stringify(e)}`);
   });
 
   // write data to request body
