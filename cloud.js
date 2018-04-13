@@ -24,8 +24,8 @@ function writeLog(info) {
 // 发起一个post请求
 function post(data) {
   const options = {
-    hostname: 'http://192.168.118.59',
-    port: 8066,
+    hostname: 'http://5.kisn.applinzi.com',
+    port: 80,
     path: '/weeklyreport/mail/sendmail.php',
     method: 'POST',
     headers: {
