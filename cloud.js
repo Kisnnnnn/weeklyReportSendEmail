@@ -24,9 +24,9 @@ function writeLog(info) {
 // 发起一个post请求
 function post(data) {
   const options = {
-    hostname: 'http://5.kisn.applinzi.com',
-    port: 80,
-    path: '/weeklyreport/mail/sendmail.php',
+    hostname: 'http://fe.epoint.com.cn',
+    port: 8080,
+    path: '/mobileweeklyreport/mail/sendmail.php',
     method: 'POST',
     headers: {
       'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
